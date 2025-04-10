@@ -1,17 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="zh-Hant">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>王牌旅遊機場接送</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #f4f4f4;
+
+        }
+
+        header { background: #222; color: white; padding: 15px; text-align: center; }
+
+        nav { background: #444; padding: 10px; text-align: center; }
+
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+
+        .container { padding: 20px; max-width: 800px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+        .contact-info, .pricing, .reservation, .vehicle-gallery, .terms { margin-top: 20px; padding: 15px; background: #eef; border-radius: 10px; }
+
+        .vehicle-gallery img { width: 100%; max-width: 400px; display: block; margin: 10px auto; border-radius: 10px; }
+
+        form label { display: block; margin: 10px 0; }
+
+        button { background: #008CBA; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
+
+        button:hover { background: #005f73; }
+
+        .news-banner { background: yellow; padding: 10px; text-align: center; font-weight: bold; }
+
+    </style>
+
 </head>
 
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+
+    <header>
+
+        <h1>王牌旅遊機場接送</h1>
+
+
+        
+        
+
+    </header>
+
+    <nav>
+
+        <a href="#services">服務項目</a>
+
+        <a href="#pricing">價格資訊</a>
+
+        <a href="#contact">聯絡我們</a>
+
+        <a href="#terms">訂車須知</a>
+
+    </nav>
+
+    <div class="container">
+
+        <section class="news-banner">
+
+            <a href="https://tinyurl.com/24szta3s" target="_blank">Yahoo 新聞報導我們</a>
+
+        </section>
+
+      
+           
+ <section id="services">
+
+            <h2>服務項目</h2>
+
+            <ul>
+
+                <li>機場接送</li>
+
+                <li>全台旅遊包車</li>
+
+                <li>商務接送</li>
+
+                <li>婚禮禮車</li>
+                
+            </ul>
+            <p>服務車隊皆為合法租賃車，並擁有高額乘客意外險，專業司機皆領有職業駕照、良民證。</p>
+
+        </section>
+
+      
+        </section>
+
+        <section id="pricing" class="pricing">
+
+            <h2>價格資訊</h2>
+
+            <p><strong>雙北 ➡ 桃園機場</strong></p>
+
+            <ul>
+
+                <li>五人座車送機 900元</li>
+
+                <li>進口轎車送機 1200元</li>
+
+                <li>九人座車送機 1300元</li>
+
+                <li>Toyota Alphard 送機 2200元</li>
+
+                <li>Lexus LM 送機 2600元</li>
+
+            </ul>
+
+            <p><strong>台中市 ➡ 桃園機場</strong></p>
+
+            <ul>
+
+                <li>九人座送機 2300元起</li>
+
+            </ul>
+<li>(其他地區另外報價)</li>
+            <p><strong>其他費用</strong></p>
+
+            <ul>
+
+                <li>加點停靠 +100元</li>
+
+                <li>嬰兒座椅 +100元</li>
+
+                <li>接機為送機價格 +100元</li>
+
+                <li>明星保母車另外報價</li>
+
+            </ul>
+
+        </section>
+
+
+
+        <section id="contact" class="contact-info">
+
+            <h2>聯絡我們</h2>
+
+            <p>客服專線: <a href="tel:+0958-508-316 ">0958-508-316</a> </p>
+
+
+            <p>line: @a88a    <a href="https://lin.ee/xVyk520n"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="26" border="0"></a></p>
+            <p><a href="https://www.facebook.com/profile.php?id=100092383215262" target="_blank">FB粉絲頁</a></p>
+
+            
+            <p>WeChat: sam947255</p>
+
+            <p>WhatsApp: +886958508316</p>
+
+            <p>Email: <a href="mailto:aitroc99@gmail.com">aitroc99@gmail.com</a></p>
+
+
+            <p>公司地址: 台北市中山區敬業三路192號2樓</P>
+
+
+
+        </section>
+
+        <section class="reservation">
+
+            <h2>預約服務</h2>
+
+
+【接機/送機】<br>
+搭車日期：<br>
+搭車時間：<br>
+航班編號：<br>
+客戶姓名：<br>
+聯絡電話：<br>
+上車地址：<br>
+下車地址：<br>
+搭乘人數：<br>
+大型行李：<br>
+備註：<br>
+（請複製以上格式，填寫完整後，Line回傳客服為您服務。）<br>
+<p><a href="https://lin.ee/xVyk520n"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a></p>
+            <form>
+
+              
+        </section>
+
+  
+
+        <section class="vehicle-gallery">
+
+            <h2>部分服務車輛</h2>
+
+                   <section class="vehicle-gallery">
+
+                      <img src="https://aitroc.com.mytrijet.com/images/p02.jpg" alt="車輛2">
+<img src="https://aitroc.com.mytrijet.com/images/p01.jpg" alt="車輛1">
+
+<img src="https://aitroc.com.mytrijet.com/images/p03.jpg" alt="車輛3">
+<img src="https://aitroc.com.mytrijet.com/images/p04.jpg" alt="車輛4">
+<img src="https://aitroc.com.mytrijet.com/images/p05.jpg" alt="車輛5">
+<img src="https://aitroc.com.mytrijet.com/images/p06.jpg" alt="車輛6">
+<img src="https://aitroc.com.mytrijet.com/images/p07.jpg" alt="車輛7">
+<img src="https://aitroc.com.mytrijet.com/images/p08.jpg" alt="車輛8">
+<img src="https://aitroc.com.mytrijet.com/images/p09.jpg" alt="車輛9">
+
+         <section class="vehicle-gallery">
+
+ <section class="terms">
+ <section id="terms" class="terms">     
+     
+     
+
+            <h2>訂車須知&服務條款</h2>
+
+
+<font font-size=10px> 當你訂購本公司服務，即代表您同意並遵守以下條款和條件。
+<ul>
+<li>預約時間:請於行程至少二天前預約，請明確提供搭乘人數及地點。 </li>
+<li>本服務/價格皆為附帶駕駛，最晚需為出發前48小時前預約。</li>
+<li>行李說明：關於人數及行李數之乘載量，悉依中華民國交通法規，同行人數應依車型人數規定乘坐，大型行李應放置後行李廂。現場如因超過乘載限制，致有妨礙行車安全之虞，超過乘載限制的人員及行李由乘客自行處理。</li>
+<li>異動說明：如出發需緊急異動下單資訊，需直接致電24小時 客服專線 +886958508316，僅受理不影響價格之異動項目(基本聯絡資料、現場待時)，並需視調度狀況而定，若異動時間於訂單搭乘時間 6小時內，須加收異動費 300元。 接送機時間以上車時間為準，非不可抗力因素所致之航班時間變動，司機將依訂購人提供之上車時間等候。</li>
+<li>送機待時：最長等候時間為30分鐘，若超過30分鐘，仍無法與顧客聯繫，則視同已使用本次服務，服務費用將不予退還。若超過時間您需待時，經確認駕駛可等候，將收取待時費200元，最多可再多待時60分鐘。</li>
+<li>接機待時：最長等候時間為90分鐘，若超過90分鐘，仍無法與顧客聯繫，則視同已使用本次服務，服務費用將不予退還。若超過時間您需待時，經確認駕駛可等候，將收取待時費200元，最多可再多待時60分鐘。</li>
+<li>提醒您：請留意車程時間是否足夠。若搭乘為凌晨起飛航班，請注意跨日時間。</li>
+<li>本公司保留變更、解釋之權力；預約本服務如當天遇特殊狀況 (例如:天災颱風來襲、行經特殊管制路段或該路段有損傷車輛之虞)，本公司有權暫停接送服務，並主動致電通知乘客取消本服務，若於接送前致電通知取消，將主動返還原車資費用。</li>
+<li>本公司保留最終決定派車權。請詳閱上述訂購須知，若有問題歡迎來電洽詢。</li> 
+</ul>
+</font>
+
+
+
+
+            </form>
+
+              
+        </section>
+    </div>
+
 </body>
 
 </html>
+
